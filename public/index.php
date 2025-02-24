@@ -17,15 +17,9 @@ use App\Controllers\TestController;
 $router = new Router();
 $testController = new TestController();
 
-// Route to get all tests
 $router->get('api/tests', [$testController, 'getAllTests']);
-
-// Route to get a specific test by ID
 $router->get('api/tests/{id}', [$testController, 'getTest']);
-
 $router->post('/api/user-tests', [$testController, 'submitResults']);
-
 $router->get('/api/reports', [$testController, 'getReports']);
 
-// Run the router
 $router->run();
