@@ -10,6 +10,10 @@
 
 5. Atver http://localhost:80/
 
+Backend loģika sadalīta pēc Controller-Service-Repository paterna.
+
+Prasījās vēl JSON middelware ielikt, lai automātiski objektus par JSON responsiem atgriež visās vietās.
+
 Izmantoju dažas PHP bibliotēkas:
 
 bramus/router priekš rūtinga;
