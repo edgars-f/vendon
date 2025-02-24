@@ -17,17 +17,25 @@ Prasījās vēl JSON middelware ielikt, lai automātiski objektus par JSON respo
 Izmantoju dažas PHP bibliotēkas:
 
 bramus/router priekš rūtinga;
+
 robmorgan/phinx migrācijām un seedingam;
+
 vlucas/phpdotenv priekš .env
+
 fakerphp/faker lai saģenerētu fake datus.
 
-Backends uz 8081 griežas,
+Backends uz 8081 griežas
+
 frontends - next.js uz 80
 
 /api/tests/ priekš visiem testiem
+
 /api/tests/XXX - konkrētais tests
+
 /api/reports - visi testu dati
 
 Rūti redzami zem /public/index.php
 
-4. punkta komandas nepaspēju salikt dokerī, lai būtu automātisiki migrācijas un data seedings :) 
+4. punkta komandas nepaspēju salikt dokerī, lai būtu automātisiki migrācijas un data seedings :)
+
+Kaut ko varēja vēl labāk sasplitot pa kontrolieriem/servisiem, bet gan jau kopējo ainu iedos.
