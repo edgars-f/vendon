@@ -119,7 +119,7 @@ const Quiz = ({ quizId, userName }: { quizId: string; userName: string }) => {
           userAnswers[currentQuestionIndex] === undefined ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600 transition duration-200'
         }`}
       >
-        {currentQuestionIndex < (quizData.questions.length - 1) ? 'Next' : 'Submit'}
+        {currentQuestionIndex < (quizData.questions.length - 1) ? 'Tālāk' : 'Iesniegt'}
       </button>
     </div>
   );
